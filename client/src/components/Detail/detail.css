@@ -1,0 +1,56 @@
+body {
+  background: white;
+}
+
+.container {
+  background-image: url("../../img/dogbg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.detail-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.detail-card {
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 310px;
+  background-color: #b6dcfe;
+  backdrop-filter: blur(6px);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.detail-card img {
+  width: 100%;
+}
+
+.loader {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  background: #157cb4;
+  border-radius: 18px;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #d03638;
+}
+
+button {
+  border: none;
+}

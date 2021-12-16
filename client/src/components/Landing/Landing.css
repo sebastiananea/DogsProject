@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+.welcome {
+  position: absolute;
+  color: #fff;
+  background: rgba(222, 197, 227, 0.315);
+  padding: 50px;
+  border-radius: 18px;
+  backdrop-filter: blur(6px) saturate(100%) contrast(45%) brightness(120%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.welcome h1 {
+  margin: 0px;
+  padding: 20px;
+}
+.landing {
+  margin: 0;
+  background-image: url("../../img/dogbg.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnLanding {
+  width: 150px;
+  height: 40px;
+  border-radius: 18px;
+  margin-top: 20px;
+  background: #157cb4;
+  border: none;
+  color: #fff;
+}
+
+.btnLanding:hover {
+  cursor: pointer;
+  background-color: #d03638;
+}
